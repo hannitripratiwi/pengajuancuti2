@@ -56,7 +56,6 @@
                                             $id_jenis_kelamin = $i['id_jenis_kelamin'];
                                             $email = $i['email'];
                                             $nip = $i['nip'];
-                                            $pangkat = $i['pangkat'];
                                             $jabatan = $i['jabatan'];
                                             $id_jenis_kelamin = $i['id_jenis_kelamin'];
                                             $no_telp = $i['no_telp'];
@@ -94,10 +93,6 @@
                     <div class="form-group">
                         <label for="nip">NIP</label>
                         <input type="text" class="form-control" id="nip" name="nip" aria-describedby="nip" value="<?=$nip?>" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="pangkat">Pangkat</label>
-                        <input type="text" class="form-control" id="pangkat" name="pangkat" aria-describedby="pangkat" value="<?=$pangkat?>" required>
                     </div>
                     <div class="form-group">
                         <label for="jabatan">Jabatan</label>

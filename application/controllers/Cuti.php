@@ -10,8 +10,8 @@ class Cuti extends CI_Controller {
 		$this->load->model('m_user');
 		$this->load->model('m_jenis_kelamin');
 	}
-	
 
+	
     public function view_super_admin()
 	{
 	if ($this->session->userdata('logged_in') == true AND $this->session->userdata('id_user_level') == 3) {
