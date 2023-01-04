@@ -61,8 +61,6 @@ class Dashboard extends CI_Controller {
 			$data['pegawai'] = $this->m_user->get_pegawai_by_id($this->session->userdata('id_user'))->row_array();
 			$data['jenis_kelamin'] = $this->m_jenis_kelamin->get_all_jenis_kelamin()->result_array();
 			$data['pegawai_data'] = $this->m_user->get_pegawai_by_id($this->session->userdata('id_user'))->result_array();
-			// echo var_dump($data);
-			// die();
 			$this->load->view('pegawai/dashboard', $data);
 
 		}else{

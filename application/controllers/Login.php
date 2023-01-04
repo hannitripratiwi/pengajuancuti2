@@ -79,6 +79,6 @@ class Login extends CI_Controller {
 		$this->session->unset_userdata('logged_in');
 		$this->session->unset_userdata('id_user');
         $this->session->set_flashdata('success_log_out','success_log_out');
-            redirect('Login/index');
+        redirect('Login/index');
 	}
 }
